@@ -1,18 +1,14 @@
-vizient:
-  auth:
-    idm:
-      serviceUrl: http://nowhere/idmService
 spring:
   datasource:
-    url:  jdbc:sqlserver://localhost:1433;databaseName=CDBSLA_Metadata_Test
-    password: Steal13Kittens@
+    url:  jdbc:sqlserver://host.pcfdev.io:1433;databaseName=CDBSLA_Metadata_Test
+    password: 1mmaFakePassword@
     username: ziggy
     driver-class-name: com.microsoft.sqlserver.jdbc.SQLServerDriver
   jpa:
     database: default
 mart:
   datasource:
-    url: jdbc:vertica://localhost:5433/docker?searchPath=public
+    url: jdbc:vertica://host.pcfdev.io:5433/docker?searchPath=public
     password: docker
     username: dbadmin
     driver-class-name: com.vertica.jdbc.Driver
