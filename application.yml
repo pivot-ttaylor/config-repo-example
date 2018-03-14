@@ -1,0 +1,4 @@
+vizient:
+  auth:
+    idm:
+      serviceUrl: http://nowhere/idmService
