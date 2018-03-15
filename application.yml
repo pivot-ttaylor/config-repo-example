@@ -2,7 +2,7 @@ spring:
   datasource:
     url:  jdbc:sqlserver://host.pcfdev.io:1433;databaseName=CDBSLA_Metadata_Test
     password: 1mmaFakePassword@
-    username: ziggy
+    username: ziggy-test
     driver-class-name: com.microsoft.sqlserver.jdbc.SQLServerDriver
   jpa:
     database: default
