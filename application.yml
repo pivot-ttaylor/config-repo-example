@@ -12,6 +12,8 @@ mart:
     password: docker
     username: dbadmin
     driver-class-name: com.vertica.jdbc.Driver
+wiremock:
+  host: http://host.pcfdev.io:9999
 vizient:
   auth:
     sso:
