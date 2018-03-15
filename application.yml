@@ -13,7 +13,7 @@ mart:
     username: dbadmin
     driver-class-name: com.vertica.jdbc.Driver
 wiremock:
-  host: http://host.pcfdev.io:9999
+  host: http://cdbslawiremock-integration.local.pcfdev.io
 vizient:
   auth:
     sso:
